@@ -171,16 +171,16 @@ h2 {
   padding: 2.4rem 0;
 }
 
-.testimonials {
+.events {
   padding: 5rem 0;
   background-color: var(--background-color);
 }
 
-.testimonial-text {
+.event-text {
   color: var(--white-color);
 }
 
-.testimonial-card {
+.event-card {
   width: 50%;
 }
 
