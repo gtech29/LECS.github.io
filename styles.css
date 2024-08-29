@@ -177,11 +177,7 @@ h2 {
 }
 
 .testimonial-text {
-  color: var(--text-color);
-}
-
-.testimonials-name {
-  color: var(--text-color);
+  color: var(--white-color);
 }
 
 .testimonial-card {
