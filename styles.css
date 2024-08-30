@@ -33,11 +33,13 @@ FONT SIZE SYSTEM (px)
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -56,7 +58,7 @@ a {
 }
 
 .bg-header {
-  background-color: var(--background-color);
+  background: var(--background-color);
 }
 
 
@@ -114,6 +116,7 @@ h2 {
 .hero-section {
   padding: 3.2rem 0;
   height: 100vh;
+  
 }
 
 .hero-section p {
@@ -150,7 +153,9 @@ h2 {
   font-size: 2.4rem;
   margin-bottom: 1.2rem;
 }
-
+.section-how-card{
+  background: white;
+}
 .how-it-works-text {
   font-size: 1.8rem;
   color: #333;
@@ -176,7 +181,7 @@ h2 {
   background-color: var(--background-color);
 }
 .bg-gradient-custom {
-  background: linear-gradient(135deg, #1756a3, #ffffff);
+  background: whitesmoke;
   color: #ffffff;
   /* Ensure text is readable on the background */
   padding: 20px;
