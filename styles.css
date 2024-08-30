@@ -175,6 +175,15 @@ h2 {
   padding: 5rem 0;
   background-color: var(--background-color);
 }
+.bg-gradient-custom {
+  background: linear-gradient(135deg, #1756a3, #ffffff);
+  color: #ffffff;
+  /* Ensure text is readable on the background */
+  padding: 20px;
+  /* Optional, for spacing */
+  border-radius: 0.25rem;
+  /* Optional, to match Bootstrap's border-radius */
+}
 
 .event-text {
   color: var(--white-color);
