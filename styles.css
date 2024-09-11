@@ -194,8 +194,9 @@ h2 {
   color: var(--white-color);
 }
 
-.event-card {
-  width: 50%;
+.img-fluid {
+  width: 100%;
+  height: auto;
 }
 
 h3 {
@@ -247,14 +248,14 @@ button.navbar-toggler {
 }
 
 @media (max-width: 768px) {
-  .event-card img {
+  .img-fluid {
     max-width: 200%;
     /* Increase size for small screens */
   }
 }
 
 @media (max-width: 576px) {
-  .event-card img {
+  .img-fluid {
     max-width: 200%;
     /* Even larger for extra small screens */
   }
